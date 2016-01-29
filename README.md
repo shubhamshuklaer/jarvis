@@ -8,8 +8,8 @@
   * Do not use https instead of http in `http://user:pass@proxy:port`, it causes problem.
 
 ##### Before Building
-  `ionic platform add android`
+  * `ionic platform add android`
+  * `ionic plugin add cordova-plugin-apiai`
   
 ##### Build command and install app
-
-`ionic build android && adb install -r platforms/android/build/outputs/apk/android-debug.apk`
+  * `ionic build android && adb install -r platforms/android/build/outputs/apk/android-debug.apk`
