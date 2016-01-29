@@ -1,0 +1,11 @@
+systemProp.http.proxyHost=proxy
+systemProp.http.proxyPort=port
+systemProp.http.proxyUser=user
+systemProp.http.proxyPassword=pass
+systemProp.http.nonProxyHosts=*.nonproxyrepos.com|localhost
+
+systemProp.https.proxyHost=proxy
+systemProp.https.proxyPort=port
+systemProp.https.proxyUser=user
+systemProp.https.proxyPassword=pass
+systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost
